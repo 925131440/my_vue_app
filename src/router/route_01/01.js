@@ -12,9 +12,12 @@ const Cross = () => {
         });
     }
 
+    const text = '主分支'
+
     return (
         <div>
             <div>测试跨域</div>
+            <div>{text}</div>
             <button onClick={() => sendHttp()}>发送请求</button><br />
             <button onClick={() => changeNum()}>{`数量：${count}`}</button>
         </div>
